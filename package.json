@@ -1,0 +1,12 @@
+{
+  "name": "module-federation-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "server"
+  ],
+  "scripts": {
+    "dev": "yarn workspace @mf-demo/server dev"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@mf-demo/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "koa": "^2.15.0",
+    "koa-router": "^12.0.1",
+    "vite": "^5.0.8"
+  }
+}
